@@ -2,6 +2,10 @@
 import React, { useState, useEffect } from 'react';
 import './App.css';
 
+/**
+ * Renders the main component of the Website Blocker application
+ * @returns {JSX.Element} The rendered App component
+ */
 function App() {
   const [blocklist, setBlocklist] = useState([]);
   const [inputValue, setInputValue] = useState('');
